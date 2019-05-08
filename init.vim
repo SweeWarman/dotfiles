@@ -5,12 +5,14 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'zchee/deoplete-jedi'
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
+Plug 'vim-syntastic/syntastic'
 " call PlugInstall to install new plugins
 call plug#end()
 
 " basics
 filetype plugin indent on
-syntax on set number
+syntax on 
+set number
 set relativenumber
 set incsearch
 set ignorecase
