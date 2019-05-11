@@ -9,6 +9,8 @@ Plug 'vim-syntastic/syntastic'
 Plug 'jiangmiao/auto-pairs'
 Plug 'vimlab/split-term.vim'
 Plug 'jistr/vim-nerdtree-tabs'
+Plug 'Yggdroot/indentLine'
+Plug 'davidhalter/jedi-vim'
 " call PlugInstall to install new plugins
 call plug#end()
 
@@ -32,6 +34,8 @@ colorscheme gruvbox
 
 let g:deoplete#enable_at_startup = 1
 let g:airline_powerline_fonts = 1
+let g:jedi#completions_enabled = 0
+
 
 let mapleader = "\<Space>"
 nnoremap <leader>w <C-w>
